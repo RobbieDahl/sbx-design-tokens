@@ -1,0 +1,26 @@
+{
+	"border": {
+		"color": {
+			"value": "{color.gray.300.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"width": { "value": "1px", "comment": "Bootstrap", "themeable": true },
+		"radius": { "value": "0.25rem", "comment": "Bootstrap", "themeable": true },
+		"radius-sm": {
+			"value": "0.2rem",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"radius-lg": {
+			"value": "0.3rem",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"radius-pill": {
+			"value": "50rem",
+			"comment": "Bootstrap",
+			"themeable": true
+		}
+	}
+}

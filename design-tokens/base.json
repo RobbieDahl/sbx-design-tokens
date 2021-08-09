@@ -1,0 +1,8 @@
+{
+	"base": {
+		"spacer": { 
+            "value": "1",
+            "themeable": true
+        }
+	}
+}

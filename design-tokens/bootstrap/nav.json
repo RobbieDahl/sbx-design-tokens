@@ -1,0 +1,89 @@
+{
+	"nav": {
+		"link": {
+			"padding": {
+				"y": {
+					"value": "0.5rem",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"x": {
+					"value": "1.2rem",
+					"comment": "Bootstrap",
+					"themeable": true
+				}
+			},
+			"font": {
+				"size": { "value": "null", "comment": "Bootstrap", "themeable": true },
+				"weight": { "value": "null", "comment": "Bootstrap", "themeable": true }
+			},
+			"color": { "value": "null", "comment": "Bootstrap", "themeable": true },
+			"hover": {
+				"color": { "value": "null", "comment": "Bootstrap", "themeable": true }
+			},
+			"transition": {
+				"value": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"disabled": {
+				"color": {
+					"value": "{color.gray.600.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				}
+			},
+			"height": { "value": "null", "comment": "Bootstrap", "themeable": true }
+		},
+		"tabs": {
+			"border": {
+				"color": {
+					"value": "{color.gray.300.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"width": { "value": "null", "comment": "Bootstrap", "themeable": true },
+				"radius": { "value": "null", "comment": "Bootstrap", "themeable": true }
+			},
+			"link": {
+				"hover": {
+					"border-color": {
+						"value": "{color.gray.200.value} {color.gray.200.value} {nav.tabs.border.color.value}",
+						"comment": "Bootstrap",
+						"themeable": true
+					}
+				},
+				"active": {
+					"color": {
+						"value": "{color.gray.700.value}",
+						"comment": "Bootstrap",
+						"themeable": true
+					},
+					"bg": { "value": "null", "comment": "Bootstrap", "themeable": true },
+					"border-color": {
+						"value": "{color.gray.300.value} {color.gray.300.value} {nav.tabs.link.active.bg.value}",
+						"comment": "Bootstrap",
+						"themeable": true
+					}
+				}
+			}
+		},
+		"pills": {
+			"border-radius": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"link": {
+				"active": {
+					"color": {
+						"value": "null",
+						"comment": "Bootstrap",
+						"themeable": true
+					},
+					"bg": { "value": "null", "comment": "Bootstrap", "themeable": true }
+				}
+			}
+		}
+	}
+}

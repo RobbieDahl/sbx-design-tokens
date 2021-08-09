@@ -1,0 +1,243 @@
+{
+	"navbar": {
+        "nav-link": {
+            "padding": {
+                "x": {
+                    "value": "1.2rem",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                },
+                "y": {
+                    "value": "0.9rem",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            },
+            "icon": {
+                "color": {
+                    "value": "rgba({color.gray.300.value}, 0.7)",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            },
+            "font-size": {
+                "value": "0.9rem",
+                "comment": "Bootstrap",
+                "themeable": true
+            }
+        },
+        "nav-icon": {
+            "color": {
+                "value": "{color.white.value}",
+                "comment": "Bootstrap",
+                "themeable": true
+            }
+        },
+		"padding": {
+			"x": {
+				"value": "0",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"y": {
+				"value": "0",
+				"comment": "Bootstrap",
+				"themeable": true
+			}
+		},
+		"brand": {
+			"height": { "value": "null", "comment": "Bootstrap", "themeable": true },
+			"padding-y": {
+				"value": "0",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"margin-end": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			}
+		},
+		"dark": {
+			"color": { 
+                "value": "{color.white.value}", 
+                "comment": "Bootstrap", 
+                "themeable": true 
+            },
+			"hover-color": {
+				"value": "{color.white.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+            "hover-bg-color": {
+				"value": "darken({color.brand.blue.value}, 10%)",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"active-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+            "divider-color": {
+				"value": "rgba({color.gray.300.value}, 0.3)",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"disabled-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"toggler-icon-bg": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"toggler-border-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"brand-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"brand-hover-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			}
+		},
+		"light": {
+			"color": { "value": "null", "comment": "Bootstrap", "themeable": true },
+			"hover-color": {
+				"value": "{color.white.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+            "hover-bg-color": {
+				"value": "{color.brand.blue.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"active-color": {
+				"value": "{color.brand.blue.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+            "divider-color": {
+				"value": "{color.gray.300.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"disabled-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"toggler-icon-bg": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"toggler-border-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"brand-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"brand-hover-color": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			}
+		},
+        "notifications": {
+            "icon": {
+                "size": {
+                    "value": "1.2rem",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                },
+                "color": {
+                    "value": "{color.white.value}",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            },
+            "badge-offset": {
+                "value": "-4px",
+                "comment": "Bootstrap",
+                "themeable": true
+            }
+        },
+        "impersonate": {
+            "padding": {
+                "y": {
+                    "value": "0",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            },
+            "bg-color": {
+                "value": "{color.brand.green.value}",
+                "comment": "Bootstrap",
+                "themeable": true
+            },
+            "label": {
+                "size": {
+                    "value": "0.7rem",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                },
+                "color": {
+                    "value": "lighten({color.brand.green.value}, 40%)",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            }
+        },
+        "omni": {
+            "font-size": {
+                "value": "0.7rem",
+                "comment": "Bootstrap",
+                "themeable": true
+            },
+            "line-height": {
+                "value": "1rem",
+                "comment": "Bootstrap",
+                "themeable": true
+            },
+            "padding": {
+                "y": {
+                    "value": "0.3rem",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                },
+                "x": {
+                    "value": "null",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            },
+            "hover": {
+                "dark-bg-color": {
+                    "value": "{primary.value}",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                },
+                "light-bg-color": {
+                    "value": "{primary.value}",
+                    "comment": "Bootstrap",
+                    "themeable": true
+                }
+            }
+        }
+	}
+}

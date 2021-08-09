@@ -1,0 +1,7 @@
+{
+    "body": {
+        "bg": { "value": "{color.white.value}", "comment": "Bootstrap" },
+        "color": { "value": "{color.gray.900.value}", "comment": "Bootstrap" },
+        "text-align": { "value": "null", "comment": "Bootstrap" }
+    }
+}

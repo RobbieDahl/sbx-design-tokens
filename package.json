@@ -1,0 +1,61 @@
+{
+	"name": "sandbox-bootstrap",
+	"version": "0.1.0",
+	"private": true,
+	"main": "dist/navbar/navbar.cjs.js",
+	"module": "dist/navbar/navbar.esm.js",
+	"source": "src/_components/navbar/navbar.js",
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"bootstrap": "^5.0.2",
+		"bootstrap-icons": "^1.5.0",
+		"node-sass": "^6.0.1",
+		"react": "^17.0.2",
+		"react-bootstrap": "^2.0.0-beta.4",
+		"react-dom": "^17.0.2",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.1.2"
+	},
+	"devDependencies": {
+		"chokidar-cli": "^3.0.0",
+		"npm-run-all": "^4.1.5",
+		"react-app-rewired": "^2.1.8",
+		"style-dictionary": "^3.0.1",
+		"stylelint": "^13.13.1",
+		"stylelint-config-sass-guidelines": "^8.0.0",
+		"stylelint-webpack-plugin": "^3.0.1"
+	},
+	"scripts": {
+		"start": "react-app-rewired start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"create-tokens": "npx style-dictionary build --config .sd.json",
+		"stylelint": "npx stylelint 'src/styles/**/*.scss' --cache || echo 'stylelint failed for some file(s)'",
+		"watch": "npm run create-tokens && chokidar 'design-tokens/**/*.json' -c 'npm run create-tokens'"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"peerDependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}

@@ -1,0 +1,343 @@
+
+// Do not edit directly
+// Generated on Mon, 09 Aug 2021 12:33:30 GMT
+
+$base-spacer: 1 !default;
+$variable-prefix: bs- !default; // Bootstrap
+$min-contrast-ratio: 4.5 !default; // Bootstrap
+$component-active-color: #ffffff !default; // Bootstrap
+$component-active-bg: #6c757d !default; // Bootstrap
+$body-bg: #ffffff; // Bootstrap
+$body-color: #212529; // Bootstrap
+$body-text-align: null; // Bootstrap
+$border-color: #dee2e6 !default; // Bootstrap
+$border-width: 1px !default; // Bootstrap
+$border-radius: 0.25rem !default; // Bootstrap
+$border-radius-sm: 0.2rem !default; // Bootstrap
+$border-radius-lg: 0.3rem !default; // Bootstrap
+$border-radius-pill: 50rem !default; // Bootstrap
+$box-shadow: 0 0.5rem 1rem rgba(#000000, 0.15) !default; // Bootstrap
+$box-shadow-sm: 0 0.125rem 0.25rem rgba(#000000, 0.075) !default; // Bootstrap
+$box-shadow-lg: 0 1rem 3rem rgba(#000000, 0.175) !default; // Bootstrap
+$box-shadow-inset: inset 0 1px 2px rgba(#000000, 0.075) !default; // Bootstrap
+$input-btn-padding-y: 0.375rem !default; // Bootstrap
+$input-btn-padding-x: 0.75rem !default; // Bootstrap
+$input-btn-padding-y-sm: 0.25rem !default; // Bootstrap
+$input-btn-padding-x-sm: 0.5rem !default; // Bootstrap
+$input-btn-padding-y-lg: 0.5rem !default; // Bootstrap
+$input-btn-padding-x-lg: 1rem !default; // Bootstrap
+$input-btn-font-family: null !default; // Bootstrap
+$input-btn-font-size: 1rem !default; // Bootstrap
+$input-btn-font-size-sm: 1rem * 0.875 !default; // Bootstrap
+$input-btn-font-size-lg: 1rem * 1.25 !default; // Bootstrap
+$input-btn-line-height: 1.5 !default; // Bootstrap
+$input-btn-focus-width: 0.25rem !default; // Bootstrap
+$input-btn-focus-color-opacity: 0.25 !default; // Bootstrap
+$input-btn-focus-color: rgba(#6c757d, 0.25) !default; // Bootstrap
+$input-btn-focus-blur: 0 !default; // Bootstrap
+$input-btn-focus-box-shadow: 0 0 0 0.25rem rgba(#6c757d, 0.25) !default; // Bootstrap
+$input-btn-border-width: 1px !default; // Bootstrap
+$input-padding-y: 0.375rem !default; // Bootstrap
+$input-padding-x: 0.75rem !default; // Bootstrap
+$input-padding-y-sm: 0.25rem !default; // Bootstrap
+$input-padding-x-sm: 0.5rem !default; // Bootstrap
+$input-padding-y-lg: 0.5rem !default; // Bootstrap
+$input-padding-x-lg: 1rem !default; // Bootstrap
+$input-font-family: null !default; // Bootstrap
+$input-font-size: 1rem !default; // Bootstrap
+$input-font-weight: 400 !default; // Bootstrap
+$input-font-size-lg: 1rem * 1.25 !default; // Bootstrap
+$input-font-size-sm: 1rem * 0.875 !default; // Bootstrap
+$input-line-height: 1.5 !default; // Bootstrap
+$input-bg: #ffffff !default; // Bootstrap
+$input-disabled-bg: #e9ecef !default; // Bootstrap
+$input-disabled-border-color: null !default; // Bootstrap
+$input-color: #212529 !default; // Bootstrap
+$input-border-color: #ced4da !default; // Bootstrap
+$input-border-width: 1px !default; // Bootstrap
+$input-border-radius: 0.25rem !default; // Bootstrap
+$input-border-radius-sm: 0.2rem !default; // Bootstrap
+$input-border-radius-lg: 0.3rem !default; // Bootstrap
+$input-box-shadow: inset 0 1px 2px rgba(#000000, 0.075) !default; // Bootstrap
+$input-focus-bg: #ffffff !default; // Bootstrap
+$input-focus-border-color: tint-color(#6c757d, 50%) !default; // Bootstrap
+$input-focus-color: #212529 !default; // Bootstrap
+$input-focus-width: 0.25rem !default; // Bootstrap
+$input-focus-box-shadow: 0 0 0 0.25rem rgba(#6c757d, 0.25) !default; // Bootstrap
+$input-placeholder-color: #6c757d !default; // Bootstrap
+$input-plaintext-color: #212529 !default; // Bootstrap
+$input-height: add(1.5 * 1em, add(0.375rem * 2, 1px * 2, false)) !default; // Bootstrap
+$input-height-border: 1px * 2 !default; // Bootstrap
+$input-height-inner: add(1.5 * 1em, 0.375rem * 2) !default; // Bootstrap
+$input-height-inner-half: add(1.5 * 0.5em, 0.375rem) !default; // Bootstrap
+$input-height-inner-quarter: add(1.5 * 0.25em, 0.375rem * 0.5) !default; // Bootstrap
+$input-height-sm: add(1.5 * 1em, add(0.25rem * 2, 1px * 2, false)) !default; // Bootstrap
+$input-height-lg: add(1.5 * 1em, add(0.5rem * 2, 1px * 2, false)) !default; // Bootstrap
+$input-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !default; // Bootstrap
+$btn-padding-y: 0.375rem !default; // Bootstrap
+$btn-padding-x: 0.75rem !default; // Bootstrap
+$btn-padding-y-sm: 0.25rem !default; // Bootstrap
+$btn-padding-x-sm: 0.5rem !default; // Bootstrap
+$btn-padding-y-lg: 0.5rem !default; // Bootstrap
+$btn-padding-x-lg: 1rem !default; // Bootstrap
+$btn-font-family: null !default; // Bootstrap
+$btn-font-size: 1rem !default; // Bootstrap
+$btn-font-size-sm: 1rem * 0.875 !default; // Bootstrap
+$btn-font-size-lg: 1rem * 1.25 !default; // Bootstrap
+$btn-font-weight: 400 !default; // Bootstrap
+$btn-line-height: 1.5 !default; // Bootstrap
+$btn-focus-width: 0.25rem !default; // Bootstrap
+$btn-focus-box-shadow: 0 0 0 0.25rem rgba(#6c757d, 0.25) !default; // Bootstrap
+$btn-border-width: 1px !default; // Bootstrap
+$btn-box-shadow: inset 0 1px 0 rgba(#ffffff, 0.15), 0 1px 1px rgba(#000000, 0.075) !default; // Bootstrap
+$btn-disabled-opacity: 0.65 !default; // Bootstrap
+$btn-active-box-shadow: inset 0 3px 5px rgba(#000000, 0.125) !default; // Bootstrap
+$btn-link-color: #6e34eb !default; // Bootstrap
+$btn-link-hover-color: shift-color(#6e34eb, 20%)  !default; // Bootstrap
+$btn-link-disabled-color: #6c757d !default; // Bootstrap
+$btn-border-radius: 0.25rem !default; // Bootstrap
+$btn-border-radius-sm: 0.2rem !default; // Bootstrap
+$btn-border-radius-lg: 0.3rem !default; // Bootstrap
+$btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !default; // Bootstrap
+$btn-hover-bg-shade-amount: 15% !default; // Bootstrap
+$btn-hover-bg-tint-amount: 15% !default; // Bootstrap
+$btn-hover-border-shade-amount: 20% !default; // Bootstrap
+$btn-hover-border-tint-amount: 10% !default; // Bootstrap
+$btn-active-bg-shade-amount: 20% !default; // Bootstrap
+$btn-active-bg-tint-amount: 20% !default; // Bootstrap
+$btn-active-border-shade-amount: 25% !default; // Bootstrap
+$btn-active-border-tint-amount: 10% !default; // Bootstrap
+$primary: #6e34eb;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f6f6f6;
+$dark: #212529;
+$enable-caret: true !default; // Bootstrap
+$enable-rounded: true !default; // Bootstrap
+$enable-shadows: true !default; // Bootstrap
+$enable-gradients: true !default; // Bootstrap
+$enable-transitions: true !default; // Bootstrap
+$enable-reduced-motion: true !default; // Bootstrap
+$enable-smooth-scroll: true !default; // Bootstrap
+$enable-grid-classes: true !default; // Bootstrap
+$enable-button-pointers: true !default; // Bootstrap
+$enable-rfs: true !default; // Bootstrap
+$enable-validation-icons: true !default; // Bootstrap
+$enable-negative-margins: false !default; // Bootstrap
+$enable-deprecation-messages: true !default; // Bootstrap
+$enable-important-utilities: true !default; // Bootstrap
+$form-check-input-width: 1em !default; // Bootstrap
+$form-check-input-active-filter: brightness(90%) !default; // Bootstrap
+$form-check-input-bg: #ffffff !default; // Bootstrap
+$form-check-input-border: 1px solid rgba(#000000, 0.25) !default; // Bootstrap
+$form-check-input-border-radius: 0.25em !default; // Bootstrap
+$form-check-input-focus-border: tint-color(#6c757d, 50%) !default; // Bootstrap
+$form-check-input-focus-box-shadow: 0 0 0 0.25rem rgba(#6c757d, 0.25) !default; // Bootstrap
+$form-check-input-checked-color: #ffffff !default; // Bootstrap
+$form-check-input-checked-bg-color: #6c757d !default; // Bootstrap
+$form-check-input-checked-border-color: #6c757d !default; // Bootstrap
+$form-check-input-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>") !default; // Bootstrap
+$form-check-input-indeterminate-color: #ffffff !default; // Bootstrap
+$form-check-input-indeterminate-bg-color: #6c757d !default; // Bootstrap
+$form-check-input-indeterminate-border-color: #6c757d !default; // Bootstrap
+$form-check-input-indeterminate-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/></svg>") !default; // Bootstrap
+$form-check-input-disabled-opacity: 0.5 !default; // Bootstrap
+$form-check-min-height: 1rem * 1.5 !default; // Bootstrap
+$form-check-padding-start: 1em + 0.5em !default; // Bootstrap
+$form-check-margin-bottom: 0.125rem !default; // Bootstrap
+$form-check-label-color: null !default; // Bootstrap
+$form-check-label-cursor: null !default; // Bootstrap
+$form-check-label-disabled-opacity: 0.5 !default; // Bootstrap
+$form-check-transition: null !default; // Bootstrap
+$form-check-radio-border-radius: 50% !default; // Bootstrap
+$form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#ffffff'/></svg>") !default; // Bootstrap
+$form-check-btn-check-disabled-opacity: 0.65 !default; // Bootstrap
+$form-check-inline-margin-end: 1rem !default; // Bootstrap
+$form-text-margin-top: 0.25rem !default; // Bootstrap
+$form-text-font-size: 1rem * 0.875 !default; // Bootstrap
+$form-text-font-style: null !default; // Bootstrap
+$form-text-font-weight: null !default; // Bootstrap
+$form-text-color: #6c757d !default; // Bootstrap
+$form-label-margin-bottom: 0.5rem !default; // Bootstrap
+$form-label-font-size: null !default; // Bootstrap
+$form-label-font-style: null !default; // Bootstrap
+$form-label-font-weight: null !default; // Bootstrap
+$form-label-color: null !default; // Bootstrap
+$link-color: #6e34eb !default; // Bootstrap
+$link-decorator: underline !default; // Bootstrap
+$link-shade-percentage: 20% !default; // Bootstrap
+$link-hover-decoration: null !default; // Bootstrap
+$link-hover-color: shift-color(#6e34eb, 20%)  !default; // Bootstrap
+$nav-link-padding-y: 0.5rem !default; // Bootstrap
+$nav-link-padding-x: 1.2rem !default; // Bootstrap
+$nav-link-font-size: null !default; // Bootstrap
+$nav-link-font-weight: null !default; // Bootstrap
+$nav-link-color: null !default; // Bootstrap
+$nav-link-hover-color: null !default; // Bootstrap
+$nav-link-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !default; // Bootstrap
+$nav-link-disabled-color: #6c757d !default; // Bootstrap
+$nav-link-height: null !default; // Bootstrap
+$nav-tabs-border-color: #dee2e6 !default; // Bootstrap
+$nav-tabs-border-width: null !default; // Bootstrap
+$nav-tabs-border-radius: null !default; // Bootstrap
+$nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6 !default; // Bootstrap
+$nav-tabs-link-active-color: #495057 !default; // Bootstrap
+$nav-tabs-link-active-bg: null !default; // Bootstrap
+$nav-tabs-link-active-border-color: #dee2e6 #dee2e6 null !default; // Bootstrap
+$nav-pills-border-radius: null !default; // Bootstrap
+$nav-pills-link-active-color: null !default; // Bootstrap
+$nav-pills-link-active-bg: null !default; // Bootstrap
+$navbar-nav-link-padding-x: 1.2rem !default; // Bootstrap
+$navbar-nav-link-padding-y: 0.9rem !default; // Bootstrap
+$navbar-nav-link-icon-color: rgba(#dee2e6, 0.7) !default; // Bootstrap
+$navbar-nav-link-font-size: 0.9rem !default; // Bootstrap
+$navbar-nav-icon-color: #ffffff !default; // Bootstrap
+$navbar-padding-x: 0 !default; // Bootstrap
+$navbar-padding-y: 0 !default; // Bootstrap
+$navbar-brand-height: null !default; // Bootstrap
+$navbar-brand-padding-y: 0 !default; // Bootstrap
+$navbar-brand-margin-end: null !default; // Bootstrap
+$navbar-dark-color: #ffffff !default; // Bootstrap
+$navbar-dark-hover-color: #ffffff !default; // Bootstrap
+$navbar-dark-hover-bg-color: darken(#6e34eb, 10%) !default; // Bootstrap
+$navbar-dark-active-color: null !default; // Bootstrap
+$navbar-dark-divider-color: rgba(#dee2e6, 0.3) !default; // Bootstrap
+$navbar-dark-disabled-color: null !default; // Bootstrap
+$navbar-dark-toggler-icon-bg: null !default; // Bootstrap
+$navbar-dark-toggler-border-color: null !default; // Bootstrap
+$navbar-dark-brand-color: null !default; // Bootstrap
+$navbar-dark-brand-hover-color: null !default; // Bootstrap
+$navbar-light-color: null !default; // Bootstrap
+$navbar-light-hover-color: #ffffff !default; // Bootstrap
+$navbar-light-hover-bg-color: #6e34eb !default; // Bootstrap
+$navbar-light-active-color: #6e34eb !default; // Bootstrap
+$navbar-light-divider-color: #dee2e6 !default; // Bootstrap
+$navbar-light-disabled-color: null !default; // Bootstrap
+$navbar-light-toggler-icon-bg: null !default; // Bootstrap
+$navbar-light-toggler-border-color: null !default; // Bootstrap
+$navbar-light-brand-color: null !default; // Bootstrap
+$navbar-light-brand-hover-color: null !default; // Bootstrap
+$navbar-notifications-icon-size: 1.2rem !default; // Bootstrap
+$navbar-notifications-icon-color: #ffffff !default; // Bootstrap
+$navbar-notifications-badge-offset: -4px !default; // Bootstrap
+$navbar-impersonate-padding-y: 0 !default; // Bootstrap
+$navbar-impersonate-bg-color: #73ae45 !default; // Bootstrap
+$navbar-impersonate-label-size: 0.7rem !default; // Bootstrap
+$navbar-impersonate-label-color: lighten(#73ae45, 40%) !default; // Bootstrap
+$navbar-omni-font-size: 0.7rem !default; // Bootstrap
+$navbar-omni-line-height: 1rem !default; // Bootstrap
+$navbar-omni-padding-y: 0.3rem !default; // Bootstrap
+$navbar-omni-padding-x: null !default; // Bootstrap
+$navbar-omni-hover-dark-bg-color: #6e34eb !default; // Bootstrap
+$navbar-omni-hover-light-bg-color: #6e34eb !default; // Bootstrap
+$table-color: #212529 !default; // Bootstrap
+$table-bg: transparent !default; // Bootstrap
+$table-accent-bg: transparent !default; // Bootstrap
+$table-cell-padding-x: 0.5rem !default; // Bootstrap
+$table-cell-padding-y: 0.5rem !default; // Bootstrap
+$table-cell-padding-x-sm: 0.25rem !default; // Bootstrap
+$table-cell-padding-y-sm: 0.25rem !default; // Bootstrap
+$table-cell-vertical-align: top !default; // Bootstrap
+$table-th-font-weight: null !default; // Bootstrap
+$table-striped-color: #212529 !default; // Bootstrap
+$table-striped-bg-factor: 0.05 !default; // Bootstrap
+$table-striped-bg: rgba(#000000, 0.05) !default; // Bootstrap
+$table-striped-border: odd !default; // Bootstrap
+$table-active-color: #212529 !default; // Bootstrap
+$table-active-bg-factor: 0.1 !default; // Bootstrap
+$table-active-bg: rgba(#000000, 0.1) !default; // Bootstrap
+$table-hover-color: #212529 !default; // Bootstrap
+$table-hover-bg-factor: 0.075 !default; // Bootstrap
+$table-hover-bg: rgba(#000000, 0.1) !default; // Bootstrap
+$table-border-factor: 0.1 !default; // Bootstrap
+$table-border-width: 1px !default; // Bootstrap
+$table-border-color: #dee2e6 !default; // Bootstrap
+$table-group-separator-color: currentColor !default; // Bootstrap
+$table-caption-color: #6c757d !default; // Bootstrap
+$table-bg-scale: 80% !default; // Bootstrap
+$headings-h1: 1rem * 2.5 !default; // Bootstrap
+$headings-h2: 1rem * 2 !default; // Bootstrap
+$headings-h3: 1rem * 1.75 !default; // Bootstrap
+$headings-h4: 1rem * 1.5 !default; // Bootstrap
+$headings-h5: 1rem * 1.25 !default; // Bootstrap
+$headings-h6: 1rem !default; // Bootstrap
+$headings-margin-bottom: 1 * 0.5 !default; // Bootstrap
+$headings-font-family: null !default; // Bootstrap
+$headings-font-size: null !default; // Bootstrap
+$headings-font-weight: 500 !default; // Bootstrap
+$headings-line-height: 1.2 !default; // Bootstrap
+$headings-color: null !default; // Bootstrap
+$display-1: 5rem !default; // Bootstrap
+$display-2: 4.5rem !default; // Bootstrap
+$display-3: 4rem !default; // Bootstrap
+$display-4: 3.5rem !default; // Bootstrap
+$display-5: 3rem !default; // Bootstrap
+$display-6: 2.5rem !default; // Bootstrap
+$display-font-weight: 300 !default; // Bootstrap
+$display-line-height: 1.2 !default; // Bootstrap
+$lead-font-size: [object Object] !default; // Bootstrap
+$lead-font-weight: 300 !default; // Bootstrap
+$text-muted: #6c757d !default; // Bootstrap
+$initialism-font-size: 1rem * 0.875 !default; // Bootstrap
+$dt-font-weight: 400 !default; // Bootstrap
+$nested-kbd-font-weight: 400 !default; // Bootstrap
+$mark-padding: 0.2em !default; // Bootstrap
+$mark-bg: #fcf8e3 !default; // Bootstrap
+$list-inline-padding: 0.5rem !default; // Bootstrap
+$blockquote-margin-y: 1 !default; // Bootstrap
+$blockquote-font-size: 1rem * 0.875 * 1.25 !default; // Bootstrap
+$blockquote-footer-color: #6c757d !default; // Bootstrap
+$blockquote-footer-font-size: 1rem * 0.875 !default; // Bootstrap
+$hr-margin-y: 1 !default; // Bootstrap
+$hr-color: inherit !default; // Bootstrap
+$hr-height: 1px !default; // Bootstrap
+$hr-opacity: 0.25 !default; // Bootstrap
+$legend-margin-bottom: 0.5rem !default; // Bootstrap
+$legend-font-size: 1.5rem !default; // Bootstrap
+$legend-font-weight: null !default; // Bootstrap
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray-100: #f6f6f6;
+$color-gray-200: #e9ecef;
+$color-gray-300: #dee2e6;
+$color-gray-400: #ced4da;
+$color-gray-500: #adb5bd;
+$color-gray-600: #6c757d;
+$color-gray-700: #495057;
+$color-gray-800: #343a40;
+$color-gray-900: #212529;
+$color-brand-blue: #6e34eb;
+$color-brand-green: #73ae45;
+$color-primary: #6e34eb;
+$color-secondary: #6c757d;
+$color-success: #198754;
+$color-info: #0dcaf0;
+$color-warning: #e28743;
+$color-danger: #eb4034;
+$color-light: #f6f6f6;
+$color-dark: #212529;
+$font-family-sans-serif: Arial, Helvetica, 'Liberation Sans', sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-size-base: 1rem;
+$font-size-sm: 1rem * 0.875;
+$font-size-lg: 1rem * 1.25;
+$font-size-supsub: 0.75rem;
+$font-weight-100: 100;
+$font-weight-200: 200;
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-800: 800;
+$font-weight-900: 900;
+$font-weight-base: 400;
+$font-line-height-base: 1.5;
+$font-line-height-sm: 1.25;
+$font-line-height-lg: 2;
+$typography-link-color: #6e34eb;
+$typography-link-decoration: underline;
+$typography-paragraph-margin-bottom: 1;

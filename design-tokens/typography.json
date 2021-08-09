@@ -1,0 +1,11 @@
+{
+	"typography": {
+		"link": {
+			"color": { "value": "{color.brand.blue.value}" },
+			"decoration": { "value": "underline"}
+		},
+		"paragraph": {
+			"margin-bottom": { "value": "{base.spacer.value}" }
+		}
+	}
+}

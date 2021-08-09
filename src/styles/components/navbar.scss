@@ -1,0 +1,135 @@
+// mixin that creates a navbar variant for light and dark mode.
+@mixin navbar-variant($variant: dark) {
+	$active-bg: $navbar-dark-hover-bg-color;
+	$divider-color: $navbar-dark-divider-color;
+	$omni-active-bg: $navbar-omni-hover-dark-bg-color;
+
+	@if ($variant == light) {
+		$active-bg: $navbar-light-hover-bg-color;
+		$divider-color: $navbar-light-divider-color;
+		$omni-active-bg: $navbar-omni-hover-light-bg-color;
+	}
+
+	.navbar-brand {
+		// border-left: $border-width solid $divider-color;
+	}
+
+	.navbar-nav {
+		.nav-link {
+			.bi {
+				color: $navbar-nav-link-icon-color;
+			}
+
+			&.active {
+				background-color: $active-bg;
+			}
+
+			&:hover {
+				background-color: $active-bg;
+			}
+
+			&.nav-icon {
+				.bi {
+					color: $navbar-nav-icon-color;
+				}
+			}
+		}
+
+		.show {
+			.nav-link {
+				background-color: $active-bg;
+			}
+		}
+
+		.nav-divider {
+			border-left: $border-width solid $divider-color;
+			width: 1px;
+		}
+	}
+}
+
+// overriding the base navbar properties to accommodate a shadow, flex col, and align unset for the omni bar
+.navbar {
+	align-items: unset;
+	box-shadow: $box-shadow;
+	flex-direction: column;
+
+	.container-fluid {
+		align-items: unset;
+	}
+
+	.logo {
+		height: auto;
+		margin-right: 1rem;
+		width: 80px;
+	}
+
+	sup {
+		font-size: 0.35rem;
+		margin-left: 1px;
+		opacity: 0.6;
+		top: -0.21rem;
+	}
+}
+// the navbar navs inside of the navbar
+.navbar-nav {
+	.nav-link {
+		align-items: center;
+		display: flex;
+		font-size: $navbar-nav-link-font-size;
+		line-height: $navbar-nav-link-font-size + 0.1;
+		min-height: 100%;
+		padding-bottom: $navbar-nav-link-padding-y;
+		padding-top: $navbar-nav-link-padding-y;
+	}
+
+	.nav-item {
+		&.imposter {
+			.nav-link {
+				line-height: 14px;
+				padding-bottom: $navbar-impersonate-padding-y;
+				padding-top: $navbar-impersonate-padding-y;
+
+				.nav-label {
+					color: $navbar-impersonate-label-color;
+					font-size: $navbar-impersonate-label-size;
+				}
+			}
+		}
+	}
+}
+// brand is the area we're using for logo and product/project name
+.navbar-brand {
+	align-items: center;
+	display: flex;
+	flex-basis: auto;
+	padding-left: 1rem;
+}
+
+.navbar-light {
+	@include navbar-variant(light);
+}
+
+.navbar-dark {
+	@include navbar-variant();
+}
+// notifications are a logo with a badge to show counts
+.notification {
+	align-items: center;
+	display: flex;
+	position: relative;
+
+	.bi {
+		font-size: $navbar-notifications-icon-size;
+	}
+
+	.badge {
+		box-shadow: $box-shadow-sm;
+		margin-left: $navbar-notifications-badge-offset;
+	}
+}
+
+.this {
+	color: #000000;
+}
+

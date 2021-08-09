@@ -1,0 +1,170 @@
+{
+	"headings": {
+		"h1": {
+			"value": "{font.size.base.value} * 2.5",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"h2": {
+			"value": "{font.size.base.value} * 2",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"h3": {
+			"value": "{font.size.base.value} * 1.75",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"h4": {
+			"value": "{font.size.base.value} * 1.5",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"h5": {
+			"value": "{font.size.base.value} * 1.25",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"h6": {
+			"value": "{font.size.base.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"margin-bottom": {
+			"value": "{base.spacer.value} * 0.5",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"font-family": {
+			"value": "null",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"font-size": { "value": "null", "comment": "Bootstrap", "themeable": true },
+		"font-weight": {
+			"value": "{font.weight.500.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"line-height": {
+			"value": "1.2",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"color": { "value": "null", "comment": "Bootstrap", "themeable": true }
+	},
+	"display": {
+		"1": { "value": "5rem", "comment": "Bootstrap", "themeable": true },
+		"2": { "value": "4.5rem", "comment": "Bootstrap", "themeable": true },
+		"3": { "value": "4rem", "comment": "Bootstrap", "themeable": true },
+		"4": { "value": "3.5rem", "comment": "Bootstrap", "themeable": true },
+		"5": { "value": "3rem", "comment": "Bootstrap", "themeable": true },
+		"6": { "value": "2.5rem", "comment": "Bootstrap", "themeable": true },
+		"font-weight": {
+			"value": "{font.weight.300.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"line-height": {
+			"value": "{headings.line-height.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		}
+	},
+	"lead": {
+		"font-size": {
+			"value": "{font.size.base} * 1.25",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"font-weight": {
+			"value": "{font.weight.300.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		}
+	},
+	"text-muted": {
+		"value": "{color.gray.600.value}",
+		"comment": "Bootstrap",
+		"themeable": true
+	},
+	"initialism-font-size": {
+		"value": "{font.size.sm.value}",
+		"comment": "Bootstrap",
+		"themeable": true
+	},
+	"dt-font-weight": {
+		"value": "{font.weight.base.value}",
+		"comment": "Bootstrap",
+		"themeable": true
+	},
+	"nested-kbd-font-weight": {
+		"value": "{font.weight.base.value}",
+		"comment": "Bootstrap",
+		"themeable": true
+	},
+	"mark-padding": {
+		"value": "0.2em",
+		"comment": "Bootstrap",
+		"themeable": true
+	},
+	"mark-bg": { "value": "#fcf8e3", "comment": "Bootstrap", "themeable": true },
+	"list-inline-padding": {
+		"value": "0.5rem",
+		"comment": "Bootstrap",
+		"themeable": true
+	},
+	"blockquote": {
+		"margin-y": {
+			"value": "{base.spacer.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"font-size": {
+			"value": "{font.size.sm.value} * 1.25",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"footer-color": {
+			"value": "{color.gray.600.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"footer-font-size": {
+			"value": "{font.size.sm.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		}
+	},
+	"hr": {
+		"margin-y": {
+			"value": "{base.spacer.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"color": { "value": "inherit", "comment": "Bootstrap", "themeable": true },
+		"height": {
+			"value": "{border.width.value}",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"opacity": { "value": "0.25", "comment": "Bootstrap", "themeable": true }
+	},
+	"legend": {
+		"margin-bottom": {
+			"value": "0.5rem",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"font-size": {
+			"value": "1.5rem",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"font-weight": {
+			"value": "null",
+			"comment": "Bootstrap",
+			"themeable": true
+		}
+	}
+}

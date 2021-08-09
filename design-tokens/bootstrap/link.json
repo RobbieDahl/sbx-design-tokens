@@ -1,0 +1,9 @@
+{
+    "link": {
+        "color": { "value": "{color.primary.value}", "comment": "Bootstrap", "themeable": true},
+        "decorator": { "value": "underline", "comment": "Bootstrap", "themeable": true },
+        "shade-percentage": { "value": "20%", "comment": "Bootstrap", "themeable": true },
+        "hover-decoration": { "value": "null", "comment": "Bootstrap", "themeable": true },
+        "hover-color": { "value": "shift-color({link.color.value}, {link.shade-percentage.value}) ", "comment": "Bootstrap", "themeable": true }
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "form": {
+        "text": {
+            "margin-top": {
+                "value": "0.25rem",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "font-size": {
+                "value": "{font.size.sm.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "font-style": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "font-weight": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "color": {
+                "value": "{text-muted.value}",
+                "comment": "Bootstrap", "themeable": true
+            }
+        },
+        "label": {
+            "margin-bottom": {
+                "value": "0.5rem",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "font-size": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "font-style": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "font-weight": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "color": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            }
+        }
+    },
+    "input": {
+        "padding": {
+            "y": {
+                "value": "{input.btn.padding.y.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "x": {
+                "value": "{input.btn.padding.x.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "y-sm": {
+                "value": "{input.btn.padding.y-sm.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "x-sm": {
+                "value": "{input.btn.padding.x-sm.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "y-lg": {
+                "value": "{input.btn.padding.y-lg.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "x-lg": {
+                "value": "{input.btn.padding.x-lg.value}",
+                "comment": "Bootstrap", "themeable": true
+            }
+        },
+        "font": {
+            "family": {
+                "value": "{input.btn.font.family.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "size": {
+                "value": "{input.btn.font.size.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "weight": {
+                "value": "{font.weight.base.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "size-lg": {
+                "value": "{input.btn.font.size-lg.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "size-sm": {
+                "value": "{input.btn.font.size-sm.value}",
+                "comment": "Bootstrap", "themeable": true
+            }
+        },
+        "line-height": {
+            "value": "{input.btn.line-height.value}",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "bg": {
+            "value": "{color.white.value}",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "disabled": {
+            "bg": {
+                "value": "{color.gray.200.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "border-color": {
+                "value": "null",
+                "comment": "Bootstrap", "themeable": true
+            }
+        },
+        "color": {
+            "value": "{body.color.value}",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "border": {
+            "color": {
+                "value": "{color.gray.400.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "width": {
+                "value": "{input.btn.border-width.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "radius": {
+                "value": "{border.radius.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "radius-sm": {
+                "value": "{border.radius-sm.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "radius-lg": {
+                "value": "{border.radius-lg.value}",
+                "comment": "Bootstrap", "themeable": true
+            }
+        },
+        "box-shadow": {
+            "value": "{box-shadow-inset.value}",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "focus": {
+            "bg": {
+                "value": "{input.bg.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "border-color": {
+                "value": "tint-color({component-active-bg.value}, 50%)",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "color": {
+                "value": "{input.color.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "width": {
+                "value": "{input.btn.focus.width.value}",
+                "comment": "Bootstrap", "themeable": true
+            },
+            "box-shadow": {
+                "value": "{input.btn.focus.box-shadow.value}",
+                "comment": "Bootstrap", "themeable": true
+            }
+        },
+        "placeholder-color": {
+            "value": "{color.gray.600.value}",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "plaintext-color": {
+            "value": "{body.color.value}",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height": {
+            "value": "add({input.line-height.value} * 1em, add({input.padding.y.value} * 2, {input.height-border.value}, false))",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height-border": {
+            "value": "{input.border.width.value} * 2",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height-inner": {
+            "value": "add({input.line-height.value} * 1em, {input.padding.y.value} * 2)",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height-inner-half": {
+            "value": "add({input.line-height.value} * 0.5em, {input.padding.y.value})",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height-inner-quarter": {
+            "value": "add({input.line-height.value} * 0.25em, {input.padding.y.value} * 0.5)",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height-sm": {
+            "value": "add({input.line-height.value} * 1em, add({input.padding.y-sm.value} * 2, {input.height-border.value}, false))",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "height-lg": {
+            "value": "add({input.line-height.value} * 1em, add({input.padding.y-lg.value} * 2, {input.height-border.value}, false))",
+            "comment": "Bootstrap", "themeable": true
+        },
+        "transition": {
+            "value": "border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",
+            "comment": "Bootstrap", "themeable": true
+        }
+    }
+}

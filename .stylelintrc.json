@@ -1,0 +1,11 @@
+{
+	"extends": "stylelint-config-sass-guidelines",
+    "ignoreFiles": ["src/styles/bs_variables.scss"],
+    "defaultSeverity": "warning",
+    "rules": {
+        "color-hex-length": "long",
+        "indentation": "tab",
+        "max-nesting-depth": 5,
+        "selector-max-compound-selectors": 4
+    }
+}

@@ -1,0 +1,58 @@
+{
+	"enable": {
+		"caret": { "value": "true", "comment": "Bootstrap", "themeable": true },
+		"rounded": { "value": "true", "comment": "Bootstrap", "themeable": true },
+		"shadows": { "value": "true", "comment": "Bootstrap", "themeable": true },
+		"gradients": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"transitions": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"reduced-motion": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"smooth-scroll": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"grid-classes": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"button-pointers": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"rfs": { "value": "true", "comment": "Bootstrap", "themeable": true },
+		"validation-icons": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"negative-margins": {
+			"value": "false",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"deprecation-messages": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		},
+		"important-utilities": {
+			"value": "true",
+			"comment": "Bootstrap",
+			"themeable": true
+		}
+	}
+}

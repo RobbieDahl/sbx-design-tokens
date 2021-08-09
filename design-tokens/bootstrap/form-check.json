@@ -1,0 +1,148 @@
+{
+	"form": {
+		"check": {
+			"input": {
+				"width": {
+					"value": "1em",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"active-filter": {
+					"value": "brightness(90%)",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"bg": {
+					"value": "{input.bg.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"border": {
+					"value": "1px solid rgba({color.black.value}, 0.25)",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"border-radius": {
+					"value": "0.25em",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"focus-border": {
+					"value": "{input.focus.border-color.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"focus-box-shadow": {
+					"value": "{input.btn.focus.box-shadow.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"checked-color": {
+					"value": "{component-active-color.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"checked-bg-color": {
+					"value": "{component-active-bg.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"checked-border-color": {
+					"value": "{form.check.input.checked-bg-color.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"checked-bg-image": {
+					"value": "url(\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='{form.check.input.checked-color.value}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/></svg>\")",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"indeterminate-color": {
+					"value": "{component-active-color.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"indeterminate-bg-color": {
+					"value": "{component-active-bg.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"indeterminate-border-color": {
+					"value": "{form.check.input.indeterminate-bg-color.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"indeterminate-bg-image": {
+					"value": "url(\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='{form.check.input.indeterminate-color.value}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/></svg>\")",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"disabled-opacity": {
+					"value": "0.5",
+					"comment": "Bootstrap",
+					"themeable": true
+				}
+			},
+
+			"min-height": {
+				"value": "{font.size.base.value} * {font.line-height.base.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"padding-start": {
+				"value": "{form.check.input.width.value} + 0.5em",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"margin-bottom": {
+				"value": "0.125rem",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"label": {
+				"color": {
+					"value": "null",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"cursor": {
+					"value": "null",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"disabled-opacity": {
+					"value": "{form.check.input.disabled-opacity.value}",
+					"comment": "Bootstrap",
+					"themeable": true
+				}
+			},
+			"transition": {
+				"value": "null",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"radio": {
+				"border-radius": {
+					"value": "50%",
+					"comment": "Bootstrap",
+					"themeable": true
+				},
+				"checked-bg-image": {
+					"value": "url(\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='{form.check.input.checked-color.value}'/></svg>\")",
+					"comment": "Bootstrap",
+					"themeable": true
+				}
+			},
+			"btn-check-disabled-opacity": {
+				"value": "{btn.disabled-opacity.value}",
+				"comment": "Bootstrap",
+				"themeable": true
+			},
+			"inline-margin-end": {
+				"value": "1rem",
+				"comment": "Bootstrap",
+				"themeable": true
+			}
+		}
+	}
+}

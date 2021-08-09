@@ -9,7 +9,7 @@ Scaffold for creating Design Tokens for Bootstrap 5
 
 
 ### Start the application
-This adds a overrides config for webpack that inserts a plug-in to watch and lint the sass. (react-app-rewired)
+This adds a overrides config for webpack that inserts a plug-in to watch and lint the Sass. (react-app-rewired)
 ```zsh
     npm run start
 ```
@@ -22,4 +22,9 @@ This adds a overrides config for webpack that inserts a plug-in to watch and lin
 ### Create Token Watch
 ```zsh
     npm run watch
+```
+
+### Manually lint the Sass
+```zsh
+    npm run stylelint
 ```
